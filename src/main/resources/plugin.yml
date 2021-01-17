@@ -1,0 +1,94 @@
+name: ProEverything
+version: ${project.version}
+main: me.prosl3nderman.proeverything.ProEverything
+prefix: [ProEverything]
+authors: [ProSl3nderMan]
+description: everything a prosl3nderman could need
+api-version: 1.13
+softdepend: [EssentialsSpawn,Essentials]
+loadbefore: [ChangeSkin,VotingPlugin]
+website: dragonsdoom.net
+commands:
+  spawn:
+    description: Teleports you to spawn. /spawn
+  tpa:
+    description: Sends a teleport command to a player. /tpa <player>
+  tpahere:
+    description: Sends a teleport here coommand to a player. /tpahere <player>
+  tpaccept:
+    description: Accepts a tpa to you or a tpa to someone else. /tpaccept
+    aliases: [tpyes]
+  tpacancel:
+    description: Cancels the tpa request you sent. /tpacancel
+  tpareject:
+    description: Rejects the tpa request sent to you. /tpareject
+  tpdeny:
+    description: Rejects the tpa request sent to you. /tpdeny
+  home:
+    description: Teleports you to specified home. /home
+  sethome:
+    description: Sets the specified home. /sethome
+  delhome:
+    description: Deletes the specified home. /delhome
+  seen:
+    description: Looks up when a player was last on. /seen <player>
+  stats:
+    description: Looks up your stats or a player's stats. /stats or /stats <player>
+  gseen:
+    description: Looks up when a player was last on globally. /seen <player>
+  gstats:
+    description: Looks up your stats or a player's stats globally. /stats or /stats <player>
+  vote:
+    description: Shows all the voting sites. /vote
+  kit:
+    description: Gives you a kit. Only kit is /kit claim
+  message:
+    description: Message a player.
+    aliases: [msg,pm,m,whisper]
+  reply:
+    description: Reply to a message.
+    aliases: [r]
+  bc:
+    description: Broadcasts message.
+  configsReload:
+    description: Reloads configs.
+  livemap:
+    description: Gives link to the livemap (dynamp).
+  lm:
+    description: Gives link to the livemap (dynmap).
+  discord:
+    description: Gives link to the discord.
+    aliases: [forums]
+  voteshop:
+    description: Opens the voteshop.
+    aliases: [vshop]
+  voop:
+    description: Secret command for console and ProSl3nderMan :).
+  pro:
+    description: ProSl3nderMan's DICTATOR COMMAND! HE CAN DICTATE ANYTHING WITH THIS COMMAND.
+  spectator:
+    description: Takes you in or out of spectator mode.
+  donor:
+    description: Secret command for console and ProSl3nderMan :).
+  hat:
+    description: Sets your hat.
+  dc:
+    description: Donor chat command. /dc
+  near:
+    description: Shows nearby players.
+  back:
+    description: Returns you to where you died.
+  announce:
+    description: Announcement command for CONSOLE.
+  creative:
+    description: Teleports you to creative.
+  candr:
+    description: Teleports you to candr.
+  bloodshop:
+    description: Teleports you to the bloodshop.
+    aliases: [bs]
+  frostshop:
+    description: Teleports you to the frostshop.
+    aliases: [fs]
+  fly:
+    description: Enables fly mode for the player who enters it.

@@ -1,0 +1,193 @@
+configVersion: 2
+worldspawn: world;-69.56912713633466;71.0;243.49221741610157;-181.81812;-0.6024752
+discord: "https://discordapp.com/invite/zqG53PS"
+dynmap: "mc.dragonsdoom.net:8123"
+localTableName: 'main'
+tab:
+  enabled: false
+  tabColor: '&f'
+survival: true
+skyblock: false
+creative: false
+commands:
+  announce: true
+  back: true
+  bloodshop: true
+  broadcast: true
+  chatcolor: true
+  configsReload: true
+  dc: true
+  delhome: true
+  discord: true
+  fly: true
+  frostshop: true
+  gseen: true
+  gstats: true
+  hat: true
+  home: true
+  kit: true
+  livemap: true
+  message: true
+  near: true
+  reply: true
+  rules: true
+  seen: true
+  sethome: true
+  spawn: true
+  spectator: true
+  stats: true
+  tpacancel: true
+  tpaccept: true
+  tpa: true
+  tpahere: true
+  tpareject: true
+  vote: true
+  voteshop: true
+  skin: false
+events:
+  SelectSkinGUI: true
+  KillEnderdragon: true
+  ChangeGamemodeTabOnSameServer: false
+  ChatColorGUI: true
+  DeathStat: true
+  JoinStatAndHoursStat: true
+  LeaveStatAndHoursStat: true
+  RespawnToServerSpawnOrProsVersionOfHomeEvent: true
+  VoteListenerEvent: true
+mutedPlayers:
+- Austin_Texas's uuid here
+voteLinks:
+  minecraft-server-list: "https://minecraft-server-list.com/server/432769/vote/"
+  minecraftservers: "https://minecraftservers.org/vote/519921"
+  minecraft-server: "https://minecraft-server.net/vote/dragonsdoom"
+  minecraft-mp: "https://minecraft-mp.com/server/208648/vote/"
+  pmc: "https://www.planetminecraft.com/server/dragons-doom/vote/"
+enchantments:
+  DURABILITY: 'Unbreaking'
+  DAMAGE_ALL: 'Sharpness'
+  KNOCKBACK: 'Knockback'
+  SWEEPING_EDGE: 'Sweeping edge'
+  LOOT_BONUS_MOBS: 'Looting'
+  DIG_SPEED: 'Efficiency'
+  LOOT_BONUS_BLOCKS: 'Fortune'
+  ARROW_DAMAGE: 'Power'
+  ARROW_FIRE: 'Flame'
+  ARROW_INFINITE: 'Infinity'
+  ARROW_KNOCKBACK: 'Punch'
+  BINDING_CURSE: 'Curse of Binding'
+  CHANNELING: 'Channeling'
+  DAMAGE_ARTHROPODS: 'Bane of Arthropods'
+  DAMAGE_UNDEAD: 'Smite'
+  DEPTH_STRIDER: 'Depth Strider'
+  FIRE_ASPECT: 'Fire Aspect'
+  FROST_WALKER: 'Frost Walker'
+  IMPALING: 'Impaling'
+  LOYALTY: 'Loyalty'
+  LUCK: 'Luck of the Sea'
+  LURE: 'Lure'
+  MENDING: 'Mending'
+  OXYGEN: 'Respiration'
+  PROTECTION_ENVIRONMENTAL: 'Protection'
+  PROTECTION_EXPLOSIONS: 'Blast Protection'
+  PROTECTION_FALL: 'Feather Falling'
+  PROTECTION_FIRE: 'Fire Protection'
+  PROTECTION_PROJECTILE: 'Projectile Protection'
+  RIPTIDE: 'Riptide'
+  SILK_TOUCH: 'Silk Touch'
+  THORNS: 'Thorns'
+  VANISHING_CURSE: 'Curse of Vanishing'
+  WATER_WORKER: 'Aqua Infinity'
+voteShop:
+  slotamount: 27
+  slots:
+    1:
+      block: RED_BED
+      command: voop buyhome %player% %cost%
+      name: 'Add Home'
+      maxhomes1:
+        cost: '2'
+        description:
+          lineamount: 2
+          lines:
+            line1: '&5Add another /home!'
+            line2: '&6Cost: 2 votepoints'
+      maxhomes2:
+        cost: '3'
+        description:
+          lineamount: 2
+          lines:
+            line1: '&5Add another /home!'
+            line2: '&6Cost: 3 votepoints'
+      maxhomes3:
+        cost: '4'
+        description:
+          lineamount: 2
+          lines:
+            line1: '&5Add another /home!'
+            line2: '&6Cost: 4 votepoints'
+      maxhomes4:
+        cost: '0'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&5No more available homes for now!'
+    3:
+      block: GOLDEN_SHOVEL
+      command: voop buyclaimblocks %player% %cost%
+      name: 'Add Claim Blocks'
+      cost: '1'
+      description:
+        lineamount: 2
+        lines:
+          line1: '&5Add 1000 more claim blocks!'
+          line2: '&6Cost: 1 votepoint'
+    5:
+      block: COOKED_BEEF
+      command: voop buybeef %player% %cost%
+      name: 'Buy Food'
+      cost: '1'
+      description:
+        lineamount: 2
+        lines:
+          line1: '&5Get a stack (64) of beef!'
+          line2: '&6Cost: 1 votepoint'
+    7:
+      block: EXPERIENCE_BOTTLE
+      command: voop buyexp %player% %cost%
+      name: 'Add Exp Bottles'
+      cost: '2'
+      description:
+        lineamount: 2
+        lines:
+          line1: '&5Get 32 exp bottles!!'
+          line2: '&6Cost: 2 votepoints'
+    11:
+      block: NAME_TAG
+      command: voop buynick %player% %cost%
+      name: 'Buy /nick Perms'
+      cost: '20'
+      description:
+        lineamount: 2
+        lines:
+          line1: '&5Get /nick perms'
+          line2: '&6Cost: 15 votepoints'
+    13:
+      block: NAME_TAG
+      command: voop buytag %player% %cost%
+      name: 'Buy a Custom Tag'
+      cost: '15'
+      description:
+        lineamount: 2
+        lines:
+          line1: '&5Get a custom tag!!'
+          line2: '&6Cost: 15 votepoints'
+    15:
+      block: LEAD
+      command: voop call %player% %cost%
+      name: 'Buy /call'
+      cost: '3'
+      description:
+        lineamount: 2
+        lines:
+          line1: '&5Get /call permissions. /call will spawn a phantom right on you!!'
+          line2: '&6Cost: 3 votepoints'
